@@ -11,15 +11,20 @@ for 30 participants across 6 activities.
 The datasets were stored in separate .txt files for x_train, y_train, x_test,
 y_test, features, subject_train, subject_test and activity_labels.
 
-x_train contains 7352 rows and 561 variables (features).
-y_train contains 7352 and the activity variable.
-x_test contains 2947 rows and 561 variables (features).
-y_test contains 2947 rows and the activity variable.
-features contains all the available features (561 variables).
-subject_train and subject_test contains the subject ids of the participants.
-activity label contains activity id and the activity descriptions.
+- x_train contains 7352 rows and 561 variables (features).
+- y_train contains 7352 and the activity variable.
+- x_test contains 2947 rows and 561 variables (features).
+- y_test contains 2947 rows and the activity variable.
+- features contains all the available features (561 variables).
+- subject_train and subject_test contains the subject ids of the participants.
+- activity label contains activity id and the activity descriptions.
 
 ## Variables
 
+
 ## Transformations
+### Transformations that were made in the "run_analysis.R":
+- Creating column names of x_train and x_test datasets to align with features.txt
+- Renaming column names of y_train and y_test from X1 to activity_id
+- Renaming column names of subject dataframes from X1 to subject_id
 
