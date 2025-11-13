@@ -28,11 +28,11 @@ E.g. time_body_acc_mean_x_avg: the average of mean of time-domain body accelerat
 signal in the X direction.
 
 ### Units
-Accelerometer features (acc_): normalized acceleration signals proportional 
+- Accelerometer features (acc_): normalized acceleration signals proportional 
 to g-forces (original unit: g).
-Gyroscope features (gyro_): normalized angular velocity signals 
+- Gyroscope features (gyro_): normalized angular velocity signals 
 (original unit: radians/second).
-All features have been normalized and are therefore unitless in the tidy dataset.
+- All features have been normalized and are therefore unitless in the tidy dataset.
 
 ## Transformations that were made in the "run_analysis.R":
 ### Renaming columns
