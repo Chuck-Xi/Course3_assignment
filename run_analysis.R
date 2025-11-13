@@ -99,25 +99,3 @@ df_final <- df_filt %>%
 
 write.table(df_final, "tidy_dataset.txt", row.names = FALSE)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
